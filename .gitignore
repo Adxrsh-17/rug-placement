@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Project artifacts
+rug-ai/models/*.pth
+rug-ai/outputs/
+rug-ai/outputs.zip

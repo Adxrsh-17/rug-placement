@@ -1,0 +1,16 @@
+# Rug Visualizer - Requirements
+# Python 3.8+ recommended
+
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+
+# SAM (Segment Anything Model)
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+
+# Optional: For GPU acceleration (CUDA)
+# torch with CUDA: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
